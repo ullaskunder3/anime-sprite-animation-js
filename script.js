@@ -23,7 +23,7 @@ function animate() {
     let position = Math.floor(initFrame/staggerFrame) % 9;
     frameX = spriteWidth* position;
 
-    console.log(position);
+//     console.log(position);
 
     ctx.drawImage(playerImg, frameX, frameY*spriteHeight, spriteWidth, spriteHeight, 0, 0, spriteWidth, spriteHeight);
 
